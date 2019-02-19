@@ -1,0 +1,14 @@
+server:
+ applicationContextPath: /
+ adminContextPath: /
+ applicationConnectors:
+  - type: http
+    port: 8081
+ adminConnectors:
+  - type: http
+    port: 8082
+
+logging:
+  level: INFO
+  loggers:
+    com.majidalfuttaim: DEBUG
